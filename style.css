@@ -1,14 +1,24 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
 .orange {
   color: orangered;
 }
 .container {
   display: flex;
-  padding: 5%;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
 .first-step {
-  width: 40%;
+  width: 50%;
+  margin: 20px;
+  padding: 4%;
 }
-
+p {
+  font-weight: 100;
+  text-align: justify;
+}
 .first-step img {
   width: 100%;
 }
@@ -21,4 +31,61 @@ a {
   color: aliceblue;
   padding: 5px 20px;
   border-radius: 10px;
+}
+hr {
+  width: 90%;
+  height: 7px;
+  background-image: linear-gradient(rgb(85, 85, 228), purple);
+}
+.container2 {
+  display: flex;
+  padding: 5%;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.first-step2 {
+  width: 50%;
+  margin: 20px;
+  margin-left: 10px;
+  padding: 4%;
+}
+.first-step2 img {
+  width: 100%;
+}
+.last-step {
+  display: flex;
+  margin: 3%;
+}
+.last-step2 {
+  width: 50%;
+  padding: 3%;
+  box-shadow: 10px 10px 40px;
+  margin: 30px;
+  border-radius: 15px;
+}
+.font-size {
+  font-size: 40px;
+}
+#last-id1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(tomato, rgb(151, 15, 151));
+  border-image-slice: 1;
+}
+
+#last-id {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+}
+.last-container {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.expe {
+  color: coral;
 }
